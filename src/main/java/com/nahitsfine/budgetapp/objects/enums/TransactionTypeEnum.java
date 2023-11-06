@@ -1,4 +1,4 @@
-package com.nahitsfine.budgetapp.businessobjects.enums;
+package com.nahitsfine.budgetapp.objects.enums;
 
 /**
  * Enum of all supported transaction types.

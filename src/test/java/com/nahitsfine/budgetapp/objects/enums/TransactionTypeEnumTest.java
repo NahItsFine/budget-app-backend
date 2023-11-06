@@ -1,4 +1,4 @@
-package com.nahitsfine.budgetapp.businessobjects.enums;
+package com.nahitsfine.budgetapp.objects.enums;
 
 // JUnit, AssertJ, Mockito
 import static org.junit.jupiter.api.Assertions.assertFalse;
