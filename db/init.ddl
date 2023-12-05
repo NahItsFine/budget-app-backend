@@ -37,6 +37,7 @@ CREATE TABLE TransactionTemplate (
   id SERIAL PRIMARY KEY,
   accountId INT NOT NULL,
   transactionType TEXT NOT NULL,
+  startDate DATE,
   endDate DATE,
   nextDate DATE NOT NULL DEFAULT NOW(),
   value REAL NOT NULL DEFAULT 0,

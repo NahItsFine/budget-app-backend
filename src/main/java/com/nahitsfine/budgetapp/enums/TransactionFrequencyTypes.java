@@ -1,4 +1,4 @@
-package com.nahitsfine.budgetapp.objects.enums;
+package com.nahitsfine.budgetapp.enums;
 
 /**
  * Enum of all supported transaction frequency types, paried with value in TransactionType
@@ -6,7 +6,7 @@ package com.nahitsfine.budgetapp.objects.enums;
  * EVERY_X_WEEKS = Recurs every X weeks
  * EVERY_X_MONTHS = Recurs every X Months
  */
-public enum TransactionFrequencyTypeKey {
+public enum TransactionFrequencyTypes {
     EVERY_X_DAYS,
     EVERY_X_WEEKS,
     EVERY_X_MONTHS;

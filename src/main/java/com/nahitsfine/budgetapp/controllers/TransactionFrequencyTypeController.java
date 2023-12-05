@@ -1,6 +1,6 @@
 package com.nahitsfine.budgetapp.controllers;
 
-import com.nahitsfine.budgetapp.objects.enums.TransactionFrequencyTypeKey;
+import com.nahitsfine.budgetapp.enums.TransactionFrequencyTypes;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TransactionFrequencyTypeController {
-    @GetMapping("/objects/transactionFrequencyTypeKeys")
-    public List<TransactionFrequencyTypeKey> getAllTransactionTypeEnumKeys() {
-        return Arrays.asList(TransactionFrequencyTypeKey.values());
+    @GetMapping("/TransactionFrequencyTypess")
+    public List<TransactionFrequencyTypes> getAllTransactionTypesKeys() {
+        return Arrays.asList(TransactionFrequencyTypes.values());
     }
 }

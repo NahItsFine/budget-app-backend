@@ -1,4 +1,4 @@
-package com.nahitsfine.budgetapp.objects.enums;
+package com.nahitsfine.budgetapp.enums;
 
 /**
  * Enum of all supported transaction types.
@@ -6,7 +6,7 @@ package com.nahitsfine.budgetapp.objects.enums;
  * RECUR = some recurrence, varying amounts
  * VARIABLE = one-time transaction, any day, any amount
  */
-public enum TransactionTypeEnum {
+public enum TransactionTypes {
     FIXED(true, true),
     RECUR(true, false),
     VARIABLE(false, false);
@@ -14,7 +14,7 @@ public enum TransactionTypeEnum {
     private boolean isRecurring;
     private boolean hasRecurringAmount;
 
-    private TransactionTypeEnum(boolean isRecurring, boolean hasRecurringAmount) {
+    private TransactionTypes (boolean isRecurring, boolean hasRecurringAmount) {
         this.isRecurring = isRecurring;
         this.hasRecurringAmount = hasRecurringAmount;
     }
